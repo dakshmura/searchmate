@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to searchmate</h1>
+    <!DOCTYPE html>
+<html>
+<body>
+<button id="redirectButton">Register</button>
+
+<p id="demo"></p>
+
+<script>
+    document.getElementById("redirectButton").addEventListener("click", redirect);
+function redirect(){ window.location = "./Account/Register.cshtml"; }
+
+</script>
+
+</body>
+</html>
+
+</div>
